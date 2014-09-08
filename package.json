@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "browserify client > static/bundle.js",
+    "start": "node server.js",
+    "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
+  },
+  "dependencies": {
+    "dom-delegator": "^9.2.0",
+    "geval": "^2.1.1",
+    "global": "^4.2.1",
+    "main-loop": "^2.3.0",
+    "node-static": "^0.7.4",
+    "observ": "^0.2.0",
+    "observ-struct": "^5.0.1",
+    "value-event": "^2.3.0",
+    "virtual-hyperscript": "^4.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^5.11.1",
+    "nodemon": "^1.2.1",
+    "watchify": "^1.0.2"
+  }
+}
