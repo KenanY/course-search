@@ -7,10 +7,7 @@ var h = require('virtual-hyperscript');
 var MultipleEvent = require('geval/multiple');
 var changeEvent = require('value-event/change');
 
-var courses = [
-  require('./catalog/computer-science/cap3020.json'),
-  require('./catalog/computer-science/cap3027.json')
-];
+var courses = require('./catalog');
 
 var state = struct({
   query: value(''),
