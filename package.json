@@ -1,6 +1,7 @@
 {
   "name": "course-search",
   "repository": "KenanY/course-search",
+  "license": "MIT",
   "scripts": {
     "build": "browserify client > static/bundle.js",
     "start": "node server.js",
