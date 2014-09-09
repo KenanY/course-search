@@ -25,9 +25,15 @@ state(loop.update);
 
 function render(state) {
   var results = courses.filter(function(course) {
-    return course.name.toLowerCase().indexOf(state.query) >= 0
-        || course.code.toLowerCase().indexOf(state.query) >= 0
-        || course.description.toLowerCase().indexOf(state.query) >= 0;
+    var valid = true;
+    state.query.split(' ').forEach(function(keyword) {
+      if (valid) {
+        valid = course.name.toLowerCase().indexOf(keyword) >= 0
+                || course.code.toLowerCase().indexOf(keyword) >= 0
+                || course.description.toLowerCase().indexOf(keyword) >= 0;
+      }
+    });
+    return valid;
   });
 
   var ret = [];
