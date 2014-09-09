@@ -1,0 +1,6 @@
+{
+  "code": "CAP3034",
+  "name": "Introduction to Computer-Aided Animation",
+  "credits": 3,
+  "description": "Introduces topics related to computer-aided animation. Rigging for forward and inverse kinematics. Skin weighting. Morph targets. Expression-driven animation, rigid-body and particle simulation."
+}
