@@ -24,6 +24,12 @@ document.body.appendChild(loop.target);
 state(loop.update);
 
 function render(state) {
+
+  // Filter out courses which do not contain the search query
+  //
+  // Instead of filtering out courses that do not contain the search query
+  // verbatim, it is more appropriate to split the query into keywords, and
+  // proceed to remove courses that do not contain every keyword.
   var results = courses.filter(function(course) {
     var valid = true;
     state.query.split(' ').forEach(function(keyword) {
