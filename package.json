@@ -1,4 +1,5 @@
 {
+  "name": "course-search",
   "scripts": {
     "build": "browserify client > static/bundle.js",
     "start": "node server.js",
