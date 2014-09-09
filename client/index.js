@@ -35,7 +35,8 @@ function render(state) {
     type: 'text',
     name: 'query',
     value: String(state.query),
-    'ev-event': changeEvent(state.events.change)
+    'ev-event': changeEvent(state.events.change),
+    autofocus: true
   });
 
   results.forEach(function(course) {
