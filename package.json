@@ -2,6 +2,7 @@
   "name": "course-search",
   "repository": "KenanY/course-search",
   "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "scripts": {
     "build": "browserify client > static/bundle.js",
     "start": "node server.js",
