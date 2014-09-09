@@ -16,3 +16,7 @@ li h3 {
 li p {
   margin: 0;
 }
+
+span.code {
+  color: #575656;
+}

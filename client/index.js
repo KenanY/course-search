@@ -40,7 +40,10 @@ function render(state) {
 
   results.forEach(function(course) {
     ret.push(h('li', [
-      h('h3', course.code + ' ' + course.name),
+      h('h3', [
+        h('span.code', course.code),
+        h('span', ' ' + course.name)
+      ]),
       h('p', course.description)
     ]));
   });
