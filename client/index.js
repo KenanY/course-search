@@ -32,7 +32,7 @@ function render(state) {
   var ret = [];
 
   var inputField = h('input', {
-    type: 'text',
+    type: 'search',
     name: 'query',
     value: String(state.query),
     'ev-event': changeEvent(state.events.change),
