@@ -38,7 +38,10 @@ function render(state) {
   }));
 
   results.forEach(function(course) {
-    ret.push(h('p', course.name));
+    ret.push(h('div', [
+      h('h2', course.name),
+      h('p', course.description)
+    ]));
   });
 
   return h('div', ret);
