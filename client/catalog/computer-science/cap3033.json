@@ -1,0 +1,6 @@
+{
+  "code": "CAP3033",
+  "name": "Interactive Modeling and Animation 2",
+  "credits": 3,
+  "description": "Introduces programming and data structures for interactive three-dimensional multimedia applications. Representing form and transforms in three dimensions, capturing user actions and driving application behavior interactively. Rendering, scene graphs, automats and basic artificial intelligence."
+}
