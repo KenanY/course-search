@@ -4,3 +4,15 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+li {
+  margin-top: 40px;
+}
+
+li h3 {
+  margin: 0;
+}
+
+li p {
+  margin: 0;
+}
