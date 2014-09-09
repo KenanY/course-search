@@ -26,7 +26,8 @@ state(loop.update);
 function render(state) {
   var results = courses.filter(function(course) {
     return course.name.toLowerCase().indexOf(state.query) >= 0
-        || course.code.toLowerCase().indexOf(state.query) >= 0;
+        || course.code.toLowerCase().indexOf(state.query) >= 0
+        || course.description.toLowerCase().indexOf(state.query) >= 0;
   });
 
   var ret = [];
