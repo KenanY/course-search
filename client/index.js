@@ -31,19 +31,22 @@ function render(state) {
 
   var ret = [];
 
-  ret.push(h('input', {
+  var inputField = h('input', {
     type: 'text',
     name: 'query',
     value: String(state.query),
     'ev-event': changeEvent(state.events.change)
-  }));
+  });
 
   results.forEach(function(course) {
-    ret.push(h('div', [
+    ret.push(h('li', [
       h('h2', course.code + ' ' + course.name),
       h('p', course.description)
     ]));
   });
 
-  return h('div', ret);
+  return h('div', [
+    inputField,
+    h('ul', ret)
+  ]);
 }
