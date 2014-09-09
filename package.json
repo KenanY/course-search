@@ -8,6 +8,7 @@
     "start": "node server.js",
     "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
   },
+  "private": true,
   "dependencies": {
     "dom-delegator": "^9.2.0",
     "geval": "^2.1.1",
