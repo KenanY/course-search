@@ -25,7 +25,8 @@ state(loop.update);
 
 function render(state) {
   var results = courses.filter(function(course) {
-    return course.name.toLowerCase().indexOf(state.query) >= 0;
+    return course.name.toLowerCase().indexOf(state.query) >= 0
+        || course.code.toLowerCase().indexOf(state.query) >= 0;
   });
 
   var ret = [];
@@ -39,7 +40,7 @@ function render(state) {
 
   results.forEach(function(course) {
     ret.push(h('div', [
-      h('h2', course.name),
+      h('h2', course.code + ' ' + course.name),
       h('p', course.description)
     ]));
   });

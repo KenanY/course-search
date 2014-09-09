@@ -1,5 +1,6 @@
 {
-  "name": "CAP3020",
+  "code": "CAP3020",
+  "name": "Theory and Practice of Multimedia Production",
   "credits": 3,
   "description": "Combines the traditional media production pipeline and software engineering processes to synthesize an approach geared for the production of works incorporating both artistic and computational elements."
 }
