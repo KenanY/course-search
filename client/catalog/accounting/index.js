@@ -1,0 +1,23 @@
+module.exports = [
+  require('./acg2021'),
+  require('./acg2071'),
+  require('./acg3101'),
+  require('./acg3401'),
+  require('./acg3481'),
+  require('./acg3482c'),
+  require('./acg3802'),
+  require('./acg4111'),
+  require('./acg4133c'),
+  require('./acg4341'),
+  require('./acg4352c'),
+  require('./acg4632'),
+  require('./acg4931'),
+  require('./acg4941'),
+  require('./acg4970'),
+  require('./acg5637'),
+  require('./acg5647'),
+  require('./tax4001'),
+  require('./tax4930'),
+  require('./tax5005'),
+  require('./tax5025')
+];
