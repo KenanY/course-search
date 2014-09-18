@@ -1,0 +1,19 @@
+module.exports = [
+  require('./adv3001'),
+  require('./adv3008'),
+  require('./adv3500'),
+  require('./adv3502'),
+  require('./adv4101'),
+  require('./adv4102'),
+  require('./adv4200'),
+  require('./adv4300'),
+  require('./adv4400'),
+  require('./adv4401'),
+  require('./adv4700'),
+  require('./adv4800'),
+  require('./adv4905'),
+  require('./adv4930'),
+  require('./adv4931'),
+  require('./adv4940'),
+  require('./mmc2100')
+];
