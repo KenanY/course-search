@@ -1,0 +1,6 @@
+{
+  "code": "MAS3114",
+  "name": "Computational Linear Algebra",
+  "credits": 3,
+  "description": "Linear equations, matrices and determinants. Vector spaces and linear transformations. Inner products and eigenvalues. Emphasizes computational aspects of linear algebra."
+}

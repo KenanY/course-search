@@ -1,0 +1,6 @@
+{
+  "code": "MAS4124",
+  "name": "Introduction to Numerical Linear Algebra",
+  "credits": 3,
+  "description": "Topics in linear algebra most useful in applications with emphasis on the numerical methods involved: direct and iterative solutions to systems of linear equations; matrix norms; Householder transformations; singular value decomposition; least squares and the generalized inverse; QR method for computing eigenvalues; condition number of linear systems and eigensystems."
+}

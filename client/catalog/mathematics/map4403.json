@@ -1,0 +1,6 @@
+{
+  "code": "MAP4403",
+  "name": "Mathematical Methods for Engineers",
+  "credits": 3,
+  "description": "Complex variables, including derivatives and integrals, singularities, Taylor/Laurent series and residues; linear algebra, including Gaussian elimination, determinants, inversion, linear independence, eigenvalues and eigenvectors, and (time permitting) QR decomposition, systems of differential equations; (time permitting) numerical methods, including roots of equations, numerical integration, and numerical optimization."
+}

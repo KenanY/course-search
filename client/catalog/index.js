@@ -5,5 +5,6 @@ module.exports = [].concat(
   require('./chemical-engineering'),
   require('./chemistry'),
   require('./computer-science'),
+  require('./mathematics'),
   require('./statistics')
 );
