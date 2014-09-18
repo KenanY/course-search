@@ -1,0 +1,6 @@
+{
+  "code": "CES4141",
+  "name": "Matrix Structural Analysis",
+  "credits": 3,
+  "description": "Determining structural loads, solving matrix equations, direct stiffness method, formulation of element matrices, transformations, modeling realistic frame and truss systems, introduces the finite element method, determining convergence, interpretation of results, model validation."
+}
