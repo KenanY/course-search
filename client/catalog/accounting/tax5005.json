@@ -1,5 +1,6 @@
 {
   "code": "TAX5005",
   "name": "Federal Income Tax",
+  "credits": 3,
   "description": "Concepts and application for all types of taxpayers. Influence of taxation on economic decisions, basic statutory provisions relevant to determining taxable gross income, allowable deductions, tax computations, recognition or nonrecognition of gains or losses on property transactions and characterization of gains and losses."
 }
