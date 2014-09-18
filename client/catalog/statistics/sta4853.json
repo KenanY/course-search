@@ -1,0 +1,6 @@
+{
+  "code": "STA4853",
+  "name": "Introduction to Time Series and Forecasting",
+  "credits": 3,
+  "description": "Stationarity, autocorrelation, ARMA models; frequency domain methods and the spectral density; forecasting methods; and computationally-oriented application to case studies."
+}

@@ -1,0 +1,6 @@
+{
+  "code": "STA4211",
+  "name": "Design of Experiments",
+  "credits": 3,
+  "description": "The basic principles of experimental design: analysis of variance for experiments with a single factor; randomized blocks and Latin square designs: multiple comparison of treatment means; factorial and nested designs; analysis of covariance; response surface methodology."
+}

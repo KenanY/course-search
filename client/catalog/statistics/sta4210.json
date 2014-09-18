@@ -1,0 +1,6 @@
+{
+  "code": "STA4210",
+  "name": "Regression Analysis",
+  "credits": 3,
+  "description": "Simple linear regression and multiple linear regression models. Inference about model parameters and predictions, diagnostic and remedial measures about the model, independent variable selection, multicolinearity, autocorrelation and nonlinear regression. SAS implementation of the above topics."
+}

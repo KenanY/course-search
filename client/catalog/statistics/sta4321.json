@@ -1,0 +1,6 @@
+{
+  "code": "STA4321",
+  "name": "Introduction to Probability",
+  "credits": 3,
+  "description": "Introduction to the theory of probability, counting rules, conditional probability, independence, additive and multiplicative laws, Bayes Rule. Discrete and continuous random variables, their distributions, moments and moment generating functions. Multivariate probability distributions, independence, covariance. Distributions of functions of random variables, sampling distributions, central limit theorem."
+}

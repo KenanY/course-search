@@ -1,0 +1,6 @@
+{
+  "code": "STA4702",
+  "name": "Multivariate Statistical Methods",
+  "credits": 3,
+  "description": "Review of matrix theory, univariate normal, t, chi-squared and F distributions and multivariate normal distribution. Inference about multivariate means including Hotelling's T2, multivariate analysis of variance, multivariate regression and multivariate repeated measures. Inference about covariance structure including principal components, factor analysis and canonical correlation. Multivariate classification techniques including discriminant and cluster analyses. Additional topics at the discretion of the instructor, time permitting."
+}

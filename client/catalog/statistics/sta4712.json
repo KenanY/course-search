@@ -1,0 +1,6 @@
+{
+  "code": "STA4712",
+  "name": "Introduction to Survival Analysis",
+  "credits": 3,
+  "description": "Survival analysis data methods including Kaplan-Meier and Nelson estimators of the survival, accelerated failure time and proportional hazards models and frailty and recurrent event models."
+}
