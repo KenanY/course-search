@@ -5,6 +5,7 @@
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "scripts": {
     "build": "browserify client > static/bundle.js",
+    "size": "browserify client | uglifyjs -c warnings=false -m | gzip | wc -c | pretty-bytes",
     "start": "node server.js",
     "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
   },
@@ -23,6 +24,8 @@
   "devDependencies": {
     "browserify": "^5.11.1",
     "nodemon": "^1.2.1",
+    "pretty-bytes": "^1.0.1",
+    "uglify-js": "^2.4.15",
     "watchify": "^1.0.2"
   }
 }
