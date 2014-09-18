@@ -1,0 +1,6 @@
+{
+  "code": "COP4600",
+  "name": "Operating Systems",
+  "credits": 3,
+  "description": "The design and implementation of various components of a modern operating system, including I/O programming, interrupt handling, process and resource management, computer networks and distributed systems. (M)"
+}

@@ -1,0 +1,6 @@
+{
+  "code": "CEN4725",
+  "name": "Natural User Interaction",
+  "credits": 3,
+  "description": "Introduces the design, development and evaluation of Natural User Interaction (NUI) technologies (e.g., non-keyboard and mouse technologies such as touchscreen interaction, gesture interaction, speech interaction, etc.). Discussion of the hardware-to-software NUI pipeline and key considerations when developing NUI software, including existing platforms, toolkits and APIs used to create NUI software."
+}

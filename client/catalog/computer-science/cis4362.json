@@ -1,0 +1,6 @@
+{
+  "code": "CIS4362",
+  "name": "Introduction to Cryptology",
+  "credits": 3,
+  "description": "Introduces classical and modern cryptography and cryptanalysis, including symmetric and asymmetric (public key) ciphers. The course covers cryptographic hash functions, block and stream ciphers, as well as differential and linear cryptanalysis. Reviews applications of cryptography, cryptographic standards and protocols, and analyzes case studies of failed implementations."
+}

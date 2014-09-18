@@ -1,0 +1,6 @@
+{
+  "code": "COP4720",
+  "name": "Information and Database Systems 2",
+  "credits": 3,
+  "description": "Part two of a two-course sequence. Provides a basic understanding of the internals of a modern database system. Topics include data storage, indexing, query processing and advanced concepts such as database tuning, alternate data models and emerging applications. (M)"
+}

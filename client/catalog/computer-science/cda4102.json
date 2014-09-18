@@ -1,0 +1,6 @@
+{
+  "code": "CDA4102",
+  "name": "Computer Architecture",
+  "credits": 3,
+  "description": "Introduces computer architecture and system organization including virtual memory supports cache, pipeline, vector processing, multiprocessor and RISC architecture."
+}

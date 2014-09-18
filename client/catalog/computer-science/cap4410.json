@@ -1,0 +1,6 @@
+{
+  "code": "CAP4410",
+  "name": "Digital Image Processing",
+  "credits": 3,
+  "description": "Survey of techniques used to replicate the human vision process in computer systems. Topics include image formation, image algebra, filtering, range extraction, edge and boundary detection, region growing, and model based vision."
+}

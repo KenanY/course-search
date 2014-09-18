@@ -1,0 +1,6 @@
+{
+  "code": "CIS4204",
+  "name": "Penetration Testing: Ethical Hacking",
+  "credits": 3,
+  "description": "Introduces principles and techniques associated with the cybersecurity practice known as\r\npenetration testing or ethical hacking. The course covers planning, reconnaissance, scanning, exploitation, post-exploitation and result reporting. The student discovers how system vulnerabilities can be exploited and learns to avoid such problems."
+}

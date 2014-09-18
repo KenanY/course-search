@@ -1,0 +1,6 @@
+{
+  "code": "CAP3220",
+  "name": "Introduction to Computer-Aided Modeling",
+  "credits": 3,
+  "description": "Introduces topics related to computer-aided modeling. Polygonal mesh, NURBS and subdivision surface meshes. Materials and shading networks. Lighting, shadows and rendering."
+}

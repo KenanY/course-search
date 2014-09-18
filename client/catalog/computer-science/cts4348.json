@@ -1,0 +1,6 @@
+{
+  "code": "CTS4348",
+  "name": "UNIX System Administration",
+  "credits": 3,
+  "description": "Studies the underlying concepts and techniques employed in the installation, administration and tuning of UNIX operating systems. Topics covered include operating system installation, simple network configuration, file backup and restore, account administration, device management, scheduling, file systems, network management, and basic system and network security."
+}

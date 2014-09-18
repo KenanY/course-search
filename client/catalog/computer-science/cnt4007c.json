@@ -1,0 +1,6 @@
+{
+  "code": "CNT4007C",
+  "name": "Computer Network Fundamentals",
+  "credits": 4,
+  "description": "The fundamental concepts, principles and standards of computer networks. Topics are introduced in bottom-up approach, starting from physical layer in OSI system architecture with a stronger focus on data link, mac, network and transport layers. (M)"
+}
