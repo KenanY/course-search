@@ -7,5 +7,6 @@ module.exports = [].concat(
   require('./civil-and-coastal-engineering'),
   require('./computer-science'),
   require('./mathematics'),
+  require('./physics'),
   require('./statistics')
 );
