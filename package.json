@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "dom-delegator": "^9.2.0",
+    "dom-delegator": "^10.0.0",
     "geval": "^2.1.1",
     "global": "^4.2.1",
     "main-loop": "^2.3.0",
