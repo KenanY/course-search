@@ -18,7 +18,7 @@
     "node-static": "^0.7.4",
     "observ": "^0.2.0",
     "observ-struct": "^5.0.1",
-    "value-event": "^2.3.0",
+    "value-event": "^3.2.0",
     "virtual-hyperscript": "^4.5.0"
   },
   "devDependencies": {
