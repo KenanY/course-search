@@ -1,0 +1,20 @@
+module.exports = [
+  require('./afs2002'),
+  require('./afs3300'),
+  require('./afs3352'),
+  require('./afs3500'),
+  require('./afs3800'),
+  require('./afs4240'),
+  require('./afs4260'),
+  require('./afs4315'),
+  require('./afs4330'),
+  require('./afs4335'),
+  require('./afs4340'),
+  require('./afs4345'),
+  require('./afs4350'),
+  require('./afs4365'),
+  require('./afs4905'),
+  require('./afs4911'),
+  require('./afs4935'),
+  require('./afs4956')
+];
