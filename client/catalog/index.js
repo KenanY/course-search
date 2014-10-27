@@ -2,6 +2,7 @@ module.exports = [].concat(
   require('./accounting'),
   require('./advertising'),
   require('./african-studies'),
+  require('./african-american-studies'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
