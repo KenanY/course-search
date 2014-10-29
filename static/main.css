@@ -9,26 +9,35 @@ input {
   width: 502px;
 }
 
-ul {
+ul.results {
   width: 650px;
   margin: 20px auto;
   list-style-type: none;
   padding: 0;
 }
 
-li {
+.results li {
   margin-top: 40px;
   text-align: left;
 }
 
-li h3 {
+.results li h3 {
   margin: 0;
 }
 
-li p {
+.results li p {
   margin: 0;
 }
 
 span.code {
   color: #575656;
+}
+
+ul.props {
+  list-style-type: disc;
+}
+
+.props li {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

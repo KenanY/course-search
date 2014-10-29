@@ -58,12 +58,15 @@ function render(state) {
         h('span.code', course.code),
         h('span', ' ' + course.name)
       ]),
+      h('ul.props', [
+        h('li', 'Credits: ' + course.credits)
+      ]),
       h('p', course.description)
     ]));
   });
 
   return h('div', [
     inputField,
-    h('ul', ret)
+    h('ul.results', ret)
   ]);
 }
