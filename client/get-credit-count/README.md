@@ -5,7 +5,7 @@ Extract credit count from catalog text.
 ## Example
 
 ``` javascript
-var getCreditCount = require('get-credit-count');
+var getCreditCount = require('@course-search/get-credit-count');
 
 getCreditCount('Credits: 1.');
 // => '1'
@@ -14,7 +14,7 @@ getCreditCount('Credits: 1.');
 ## API
 
 ``` javascript
-var getCreditCount = require('get-credit-count');
+var getCreditCount = require('@course-search/get-credit-count');
 ```
 
 ### `getCreditCount(str)`
