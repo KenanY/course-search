@@ -14,7 +14,7 @@ getCreditCount('Credits: 1.');
 ## API
 
 ``` javascript
-var get-credit-count = require('get-credit-count');
+var getCreditCount = require('get-credit-count');
 ```
 
 ### `getCreditCount(str)`
