@@ -22,7 +22,7 @@
     "virtual-hyperscript": "^4.5.0"
   },
   "devDependencies": {
-    "@course-search/get-credit-count": "file:client/get-credit-count",
+    "@course-search/get-credit-count": "file:get-credit-count",
     "browserify": "^6.1.0",
     "cheerio": "^0.17.0",
     "concat-stream": "^1.4.6",
