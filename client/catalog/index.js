@@ -3,6 +3,7 @@ module.exports = [].concat(
   require('./advertising'),
   require('./african-studies'),
   require('./african-american-studies'),
+  require('./agricultural-and-biological-engineering'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
