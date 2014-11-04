@@ -32,7 +32,7 @@ function render(state) {
   // proceed to remove courses that do not contain every keyword.
   var results = courses.filter(function(course) {
     var valid = true;
-    state.query.split(' ').forEach(function(keyword) {
+    state.query.toLowerCase().split(' ').forEach(function(keyword) {
       if (valid) {
         valid = course.name.toLowerCase().indexOf(keyword) >= 0
                 || course.code.toLowerCase().indexOf(keyword) >= 0
