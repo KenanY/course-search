@@ -9,6 +9,10 @@ input {
   width: 502px;
 }
 
+abbr {
+  border-bottom: 1px dotted black;
+}
+
 ul.results {
   width: 650px;
   margin: 20px auto;

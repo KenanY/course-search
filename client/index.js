@@ -6,6 +6,7 @@ var mainLoop = require('main-loop');
 var h = require('virtual-hyperscript');
 var MultipleEvent = require('geval/multiple');
 var changeEvent = require('value-event/change');
+var find = require('lodash.find');
 
 var courses = require('./catalog');
 
@@ -22,6 +23,30 @@ Delegator();
 var loop = mainLoop(state(), render);
 document.body.appendChild(loop.target);
 state(loop.update);
+
+function prerequisites(course) {
+  var preqs = course.prerequisites;
+  if (preqs) {
+    var r = preqs.match(/[A-Z]{3}[0-9]{4}C*/g);
+    console.log(r);
+    if (r) {
+      var c = find(courses, {'code': r[0]});
+      console.log(c);
+      if (c) {
+        return h('li', [
+          'Prerequisites: ' +
+          preqs.substring(0, preqs.indexOf(r)),
+          h('abbr', {
+            title: c.name
+          }, r),
+          preqs.substring(preqs.indexOf(r[0]) + r[0].length + 1)
+        ]);
+      }
+    }
+    return h('li', 'Prerequisites: ' + course.prerequisites);
+  }
+  return null;
+}
 
 function render(state) {
 
@@ -59,7 +84,8 @@ function render(state) {
         h('span', ' ' + course.name)
       ]),
       h('ul.props', [
-        h('li', 'Credits: ' + course.credits)
+        h('li', 'Credits: ' + course.credits),
+        prerequisites(course)
       ]),
       h('p', course.description)
     ]));
