@@ -31,5 +31,5 @@ module.exports = [
   require('./aec4942'),
   require('./aec4943'),
   require('./aec4944'),
-  require('./aec4948'),
+  require('./aec4948')
 ];
