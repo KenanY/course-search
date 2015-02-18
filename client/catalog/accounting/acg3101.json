@@ -2,5 +2,6 @@
   "code": "ACG3101",
   "name": "Financial Accounting and Reporting 1",
   "credits": 4,
+  "prerequisites": "ACG2021 and ACG2071 with minimum grades of B",
   "description": "Covers the theoretical structure of financial accounting, required financial statements, revenue recognition, operating assets and current liabilities."
 }
