@@ -10,6 +10,7 @@ var diff = require('virtual-dom/vtree/diff');
 var patch = require('virtual-dom/vdom/patch');
 var create = require('virtual-dom/vdom/create-element');
 var extend = require('xtend');
+var sortBy = require('lodash.sortby');
 
 var courses = require('./catalog');
 
@@ -112,6 +113,8 @@ function render(state) {
     });
     return valid;
   });
+
+  results = sortBy(results, 'code');
 
   var ret = [];
 
