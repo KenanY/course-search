@@ -4,8 +4,8 @@
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "scripts": {
-    "build": "browserify client > static/bundle.js",
-    "size": "browserify client | uglifyjs -c warnings=false -m | gzip | wc -c | pretty-bytes",
+    "build": "browserify client -p bundle-collapser/plugin > static/bundle.js",
+    "size": "browserify client -p bundle-collapser/plugin | uglifyjs -c warnings=false -m | gzip | wc -c | pretty-bytes",
     "start": "node server.js",
     "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
   },
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@course-search/get-credit-count": "file:get-credit-count",
     "browserify": "^8.1.3",
+    "bundle-collapser": "^1.1.1",
     "cheerio": "^0.17.0",
     "concat-stream": "^1.4.6",
     "graceful-fs": "^3.0.4",
