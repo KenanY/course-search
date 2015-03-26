@@ -5,6 +5,7 @@ module.exports = [].concat(
   require('./african-american-studies'),
   require('./agricultural-and-biological-engineering'),
   require('./agricultural-education-and-communication'),
+  require('./agricultural-operations-management'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
