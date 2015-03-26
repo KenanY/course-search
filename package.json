@@ -5,7 +5,7 @@
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "scripts": {
     "build": "browserify client -p bundle-collapser/plugin > static/bundle.js",
-    "size": "browserify client -p bundle-collapser/plugin | uglifyjs -c warnings=false -m | gzip | wc -c | pretty-bytes",
+    "size": "uglifyjs -c warnings=false -m < static/bundle.js | gzip | wc -c | pretty-bytes",
     "start": "node server.js",
     "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
   },
