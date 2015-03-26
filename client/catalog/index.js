@@ -10,6 +10,7 @@ module.exports = [].concat(
   require('./chemistry'),
   require('./civil-and-coastal-engineering'),
   require('./computer-science'),
+  require('./english'),
   require('./mathematics'),
   require('./physics'),
   require('./statistics')
