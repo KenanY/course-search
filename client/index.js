@@ -30,10 +30,10 @@ function mercury(obj) {
   var copyHandles = copy.handles;
 
   if (copyChannels) {
-      copy.channels = value(null);
+    copy.channels = value(null);
   }
   else if (copyHandles) {
-      copy.handles = value(null);
+    copy.handles = value(null);
   }
 
   var observ = struct(copy);
