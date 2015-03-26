@@ -96,7 +96,6 @@ function prerequisites(course) {
 }
 
 function render(state) {
-
   // Filter out courses which do not contain the search query
   //
   // Instead of filtering out courses that do not contain the search query
