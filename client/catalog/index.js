@@ -8,6 +8,7 @@ module.exports = [].concat(
   require('./agricultural-education-and-communication'),
   require('./agricultural-operations-management'),
   require('./agronomy'),
+  require('./animal-sciences'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
