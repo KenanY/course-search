@@ -1,0 +1,23 @@
+module.exports = [
+  require('./agg3501'),
+  require('./agr2332'),
+  require('./agr3303'),
+  require('./agr4212'),
+  require('./agr4214c'),
+  require('./agr4231c'),
+  require('./agr4304'),
+  require('./agr4320'),
+  require('./agr4512'),
+  require('./agr4905'),
+  require('./agr4911'),
+  require('./agr4915'),
+  require('./agr4922'),
+  require('./agr4932'),
+  require('./als4154'),
+  require('./pcb2441'),
+  require('./pls2003c'),
+  require('./pls3004c'),
+  require('./pls4404c'),
+  require('./pls4601c'),
+  require('./pls4613')
+];
