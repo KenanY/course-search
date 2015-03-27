@@ -21,5 +21,5 @@ module.exports = [
   require('./aom4915'),
   require('./aom4932'),
   require('./aom4933'),
-  require('./aom4941'),
+  require('./aom4941')
 ];

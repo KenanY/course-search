@@ -115,5 +115,5 @@ module.exports = [
   require('./lit4930'),
   require('./red1343'),
   require('./spc3605'),
-  require('./spc4680'),
+  require('./spc4680')
 ];
