@@ -9,6 +9,7 @@ module.exports = [].concat(
   require('./agricultural-operations-management'),
   require('./agronomy'),
   require('./animal-sciences'),
+  require('./anthropology'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
