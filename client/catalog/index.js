@@ -10,6 +10,7 @@ module.exports = [].concat(
   require('./agronomy'),
   require('./animal-sciences'),
   require('./anthropology'),
+  require('./applied-physiology-and-kinesiology'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
