@@ -11,6 +11,7 @@ module.exports = [].concat(
   require('./animal-sciences'),
   require('./anthropology'),
   require('./applied-physiology-and-kinesiology'),
+  require('./architecture'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
