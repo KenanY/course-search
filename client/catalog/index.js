@@ -12,6 +12,7 @@ module.exports = [].concat(
   require('./anthropology'),
   require('./applied-physiology-and-kinesiology'),
   require('./architecture'),
+  require('./art-and-art-history'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
