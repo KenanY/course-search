@@ -1,8 +1,8 @@
 module.exports = [].concat(
   require('./accounting'),
   require('./advertising'),
-  require('./african-studies'),
   require('./african-american-studies'),
+  require('./african-studies'),
   require('./agricultural-and-biological-engineering'),
   require('./agricultural-and-life-sciences'),
   require('./agricultural-education-and-communication'),
