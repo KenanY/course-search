@@ -15,6 +15,7 @@ module.exports = [].concat(
   require('./art-and-art-history'),
   require('./asian-studies'),
   require('./astronomy'),
+  require('./biochemistry-and-molecular-biology'),
   require('./biomedical-engineering'),
   require('./chemical-engineering'),
   require('./chemistry'),
