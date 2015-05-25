@@ -20,6 +20,7 @@ module.exports = [].concat(
   require('./biomedical-engineering'),
   require('./business-administration'),
   require('./career-development-program'),
+  require('./center-for-european-studies'),
   require('./chemical-engineering'),
   require('./chemistry'),
   require('./civil-and-coastal-engineering'),
