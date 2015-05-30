@@ -25,6 +25,7 @@ module.exports = [].concat(
   require('./chemistry'),
   require('./civil-and-coastal-engineering'),
   require('./clinical-and-health-psychology'),
+  require('./communication-sciences-and-disorders'),
   require('./computer-science'),
   require('./english'),
   require('./mathematics'),
