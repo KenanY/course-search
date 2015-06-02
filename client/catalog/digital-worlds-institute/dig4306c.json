@@ -1,0 +1,6 @@
+{
+  "code": "DIG4306C",
+  "name": "Advanced Digital Animation Techniques",
+  "credits": 3,
+  "description": "Practical principles and techniques of 3D software environments for animation. Includes triangular mesh design and editing, splines (NURBS), shading techniques and lighting, different camera projection models, rendering techniques, and efficient use of GPU for photo realistic real-time 3D animation."
+}
