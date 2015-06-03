@@ -30,6 +30,7 @@ module.exports = [].concat(
   require('./construction-management'),
   require('./cooperative-education-program'),
   require('./digital-worlds-institute'),
+  require('./economics'),
   require('./english'),
   require('./mathematics'),
   require('./physics'),
