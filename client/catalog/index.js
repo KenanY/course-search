@@ -31,6 +31,7 @@ module.exports = [].concat(
   require('./cooperative-education-program'),
   require('./digital-worlds-institute'),
   require('./economics'),
+  require('./education-organizational-studies'),
   require('./english'),
   require('./mathematics'),
   require('./physics'),
