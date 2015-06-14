@@ -1,0 +1,6 @@
+{
+  "code": "EEL3135",
+  "name": "Introduction to Signals and Systems",
+  "credits": 4,
+  "description": "Continuous-time and discrete-time signal analysis including Fourier series and discrete-time and discrete Fourier transforms; sampling; discrete-time linear system analysis with emphasis on FIR and IIR systems: impulse response, frequency response, and system function; MATLAB-based programming for Signals and Systems."
+}

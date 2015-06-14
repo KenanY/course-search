@@ -1,0 +1,6 @@
+{
+  "code": "EEL4736",
+  "name": "Principles of Computer System Design",
+  "credits": 3,
+  "description": "Broadly introduces the main principles and abstractions for engineering hardware and software systems. Includes in-depth studies of their use on computer systems across a variety of designs, be it an operating system, a client/server application, a database server or a fault-tolerant disk cluster."
+}
