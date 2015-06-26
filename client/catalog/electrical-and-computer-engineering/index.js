@@ -1,7 +1,7 @@
 module.exports = [
   require('./eee3308c'),
   require('./eee3396c'),
-  require('./eee4260'),
+  require('./eee4260c'),
   require('./eee4306c'),
   require('./eee4310c'),
   require('./eee4329'),
@@ -9,7 +9,7 @@ module.exports = [
   require('./eee4373'),
   require('./eee4420'),
   require('./eee4511c'),
-  require('./eel2000'),
+  require('./eel3000'),
   require('./eel3003'),
   require('./eel3008'),
   require('./eel3105'),
