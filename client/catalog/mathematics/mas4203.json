@@ -2,5 +2,5 @@
   "code": "MAS4203",
   "name": "Introduction to Number Theory",
   "credits": 3,
-  "description": "An introduction to elementary number theory and its applications to computer science and cryptology. Divisibility, primes, Euclidean Algorithm, congruences, Chinese Remainder Theorem, Euler-Fermat Theorem and primitive roots. Selected applications to decimal fractions, continued fractions, computer file storage and hashing functions, and public-key cryptography."
+  "description": "Introduces elementary number theory and its applications to computer science and cryptology. Divisibility, primes, Euclidean Algorithm, congruences, Chinese Remainder Theorem, Euler-Fermat Theorem and primitive roots. Selected applications to decimal fractions, continued fractions, computer file storage and hashing functions, and public-key cryptography."
 }
