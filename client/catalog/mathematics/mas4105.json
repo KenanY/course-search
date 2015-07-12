@@ -2,5 +2,5 @@
   "code": "MAS4105",
   "name": "Linear Algebra 1",
   "credits": 4,
-  "description": "Linear equations, matrices, vector spaces, linear transformations, determinants, eigenvalues and inner-product spaces. This course includes both theory and computational skills. The student is expected to develop the ability to reason through, and coherently write, proofs of theorems. For math majors, this course serves as a transition from a study of techniques into more conceptual math; for engineering and science majors, it serves also as a coherent foundation in linear algebra."
+  "description": "Linear equations, matrices, vector spaces, linear transformations, determinants, eigenvalues and inner-product spaces. Includes both theory and computational skills. Develops the ability to reason through, and coherently write, proofs of theorems. For math majors, this course serves as a transition from a study of techniques into more conceptual math; for engineering and science majors, it serves also as a coherent foundation in linear algebra."
 }
