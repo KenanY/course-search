@@ -2,5 +2,5 @@
   "code": "MAP4413",
   "name": "Fourier Analysis",
   "credits": 3,
-  "description": "Introduction to linear systems and transforms; Laplace, Fourier and Z transforms and their mutual relationship; convolutions. Operational calculus; computational methods including the fast Fourier transform; second-order stationary processes and their autocorrelation functions; and problems of interpolation, extrapolation, filtering and smoothing of second-order stationary processes."
+  "description": "Introduces linear systems and transforms; Laplace, Fourier and Z transforms and their mutual relationship; convolutions. Operational calculus; computational methods including the fast Fourier transform; second-order stationary processes and their autocorrelation functions; and problems of interpolation, extrapolation, filtering and smoothing of second-order stationary processes."
 }
