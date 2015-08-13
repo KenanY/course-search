@@ -1,6 +1,7 @@
 module.exports = [
   require('./adv3001'),
   require('./adv3008'),
+  require('./adv3302'),
   require('./adv3500'),
   require('./adv3502'),
   require('./adv4101'),
@@ -12,6 +13,7 @@ module.exports = [
   require('./adv4700'),
   require('./adv4800'),
   require('./adv4905'),
+  require('./adv4910'),
   require('./adv4930'),
   require('./adv4931'),
   require('./adv4940'),
