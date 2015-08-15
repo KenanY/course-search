@@ -28,6 +28,7 @@ module.exports = [
   require('./cis2354'),
   require('./cis4204'),
   require('./cis4301'),
+  require('./cis4360'),
   require('./cis4362'),
   require('./cis4905'),
   require('./cis4912c'),
