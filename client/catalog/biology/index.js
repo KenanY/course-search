@@ -9,6 +9,7 @@ module.exports = [
   require('./bot3503l'),
   require('./bot4053'),
   require('./bot4621'),
+  require('./bot4650'),
   require('./bot4905'),
   require('./bot4911'),
   require('./bot4935'),
