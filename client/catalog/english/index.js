@@ -35,7 +35,6 @@ module.exports = [
   require('./enc4212'),
   require('./enc4260'),
   require('./enc4956'),
-  require('./eng1001'),
   require('./eng1131'),
   require('./eng1400'),
   require('./eng2300'),
