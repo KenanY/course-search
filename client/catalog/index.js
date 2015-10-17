@@ -39,6 +39,7 @@ module.exports = [].concat(
   require('./english'),
   require('./fine-arts'),
   require('./geomatics'),
+  require('./history'),
   require('./mathematics'),
   require('./physics'),
   require('./statistics')
