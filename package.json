@@ -34,7 +34,7 @@
     "nodemon": "^1.2.1",
     "pretty-bytes": "^2.0.1",
     "uglify-js": "^2.4.15",
-    "watchify": "^2.3.0",
+    "watchify": "^3.4.0",
     "write-file-atomic": "^1.1.0"
   }
 }
