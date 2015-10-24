@@ -4,6 +4,7 @@ var path = require('path');
 var writeFileAtomicSync = require('write-file-atomic').sync;
 var getCreditCount = require('@course-search/get-credit-count');
 var concat = require('concat-stream');
+var eol = require('os').EOL;
 
 var url = 'https://catalog.ufl.edu/ugrad/current/courses/descriptions/'
           + process.argv[2] + '.aspx';
@@ -37,7 +38,7 @@ hyperquest(url).pipe(concat(function(data) {
       var file = path.join(__dirname, 'client/catalog/', process.argv[2]);
       file = path.join(file, course.code.toLowerCase() + '.json');
 
-      writeFileAtomicSync(file, JSON.stringify(course, null, '  '));
+      writeFileAtomicSync(file, JSON.stringify(course, null, '  ') + eol);
     }
   });
 }));
