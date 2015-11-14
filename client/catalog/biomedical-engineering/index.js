@@ -11,6 +11,7 @@ module.exports = [
   require('./bme4503'),
   require('./bme4503l'),
   require('./bme4531'),
+  require('./bme4632'),
   require('./bme4882'),
   require('./bme4883'),
   require('./bme4931')
