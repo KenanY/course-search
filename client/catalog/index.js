@@ -42,5 +42,6 @@ module.exports = [].concat(
   require('./history'),
   require('./mathematics'),
   require('./physics'),
-  require('./statistics')
+  require('./statistics'),
+  require('./telecommunication')
 );
