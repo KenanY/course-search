@@ -39,6 +39,7 @@ module.exports = [].concat(
   require('./english'),
   require('./environmental-engineering-sciences'),
   require('./environmental-horticulture'),
+  require('./environmental-science'),
   require('./fine-arts'),
   require('./geomatics'),
   require('./history'),
