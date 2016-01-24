@@ -7,6 +7,7 @@ module.exports = [
   require('./spa2014'),
   require('./spa2024'),
   require('./spa2109'),
+  require('./spa3003'),
   require('./spa3011'),
   require('./spa3032'),
   require('./spa3101'),
