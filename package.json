@@ -4,8 +4,8 @@
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "scripts": {
-    "build": "browserify client -p bundle-collapser/plugin > static/bundle.js",
-    "size": "uglifyjs -c warnings=false -m < static/bundle.js | gzip | wc -c | pretty-bytes",
+    "build": "browserify -p bundle-collapser/plugin -g uglifyify client/ > static/bundle.js",
+    "size": "uglifyjs -c warnings=false -m < static/bundle.js | gzip -9 | wc -c | pretty-bytes",
     "start": "node server.js",
     "watch": "watchify client -o static/bundle.js -dv & DEBUG=* nodemon server.js"
   },
@@ -34,6 +34,7 @@
     "nodemon": "^1.2.1",
     "pretty-bytes-cli": "^1.0.0",
     "uglify-js": "^2.4.15",
+    "uglifyify": "^3.0.1",
     "watchify": "^3.4.0",
     "write-file-atomic": "^1.1.0"
   }
