@@ -13,7 +13,7 @@
   "dependencies": {
     "dom-delegator": "^13.0.1",
     "global": "^4.2.1",
-    "lodash.find": "^3.0.0",
+    "lodash.find": "^4.2.0",
     "lodash.sortby": "^3.0.0",
     "main-loop": "^3.1.0",
     "node-static": "^0.7.4",
